@@ -1,0 +1,9 @@
+[
+    {
+        "model": "api_app.document",
+        "pk": 1,
+        "fields": {
+            "text": "I am an experienced software developer with expertise in various programming languages such as Java, Python, and JavaScript. My skills include full-stack web development, database management, and cloud computing. Additionally, I hold a Bachelor's degree in Computer Science from a reputable university, where I specialized in software engineering and machine learning. During my studies, I gained practical experience through various internships and projects, which enhanced my problem-solving abilities and critical thinking skills. I am passionate about learning new technologies and staying updated with the latest industry trends."
+        }
+    }
+]

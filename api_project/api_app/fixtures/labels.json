@@ -1,0 +1,30 @@
+[
+    {
+        "model": "api_app.labels",
+        "pk": 1,
+        "fields": {
+            "label": "SKILLS"
+        }
+    },
+    {
+        "model": "api_app.labels",
+        "pk": 2,
+        "fields": {
+            "label": "EXPERIENCE"
+        }
+    },
+    {
+        "model": "api_app.labels",
+        "pk": 3,
+        "fields": {
+            "label": "DIPLOMA"
+        }
+    },
+    {
+        "model": "api_app.labels",
+        "pk": 4,
+        "fields": {
+            "label": "DIPLOMA_Major"
+        }
+    }
+]

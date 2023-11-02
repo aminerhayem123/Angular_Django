@@ -1,0 +1,24 @@
+[
+    {
+        "model": "api_app.annotation",
+        "pk": 1,
+        "fields": {
+            "document": 1,
+            "start": 10,
+            "end": 20,
+            "label": "Default label 1",
+            "annotated_text": "Annotated text 1"
+        }
+    },
+    {
+        "model": "api_app.annotation",
+        "pk": 2,
+        "fields": {
+            "document": 2,
+            "start": 5,
+            "end": 15,
+            "label": "Default label 2",
+            "annotated_text": "Annotated text 2"
+        }
+    }
+]
