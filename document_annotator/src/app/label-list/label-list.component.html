@@ -1,0 +1,25 @@
+<div>
+  <h2>Labels</h2>
+  <div class="label-list-container">
+    <div *ngFor="let label of labels" class="label-card" [style.backgroundColor]="labelColor(label.label)" (click)="selectLabel(label.label)">
+      {{ label.label }}
+    </div>
+  </div>
+
+  <div class="document-container">
+    <ng-container *ngIf="documentContent">
+      <div *ngFor="let doc of documentContent">
+        <p (mouseup)="onTextSelect($event)">{{ doc.text }}</p>
+      </div>
+    </ng-container>
+  </div>
+
+  <div *ngFor="let annotation of annotations">
+    <p>Start: {{annotation.start}}, End: {{annotation.end}}, Label: {{annotation.label}}, Text: {{annotation.text}}</p>
+  </div>
+</div>
+<div>
+  <!-- Labels and document content here -->
+
+  <button (click)="exportAnnotationsToFile()">Export Annotations</button>
+</div>
