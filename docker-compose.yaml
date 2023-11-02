@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: ./document_annotator
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+
+  backend:
+    build:
+      context: ./api_project
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
